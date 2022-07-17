@@ -1,15 +1,15 @@
 package com.example.tarea_22_listview;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
 
-//import com.example.tarea_22_listview.Interfaces.ApiUsu;
-//import com.example.tarea_22_listview.Usu.usuario;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.tarea_22_listview.Interfaces.UsuariosApi;
+import com.example.tarea_22_listview.Models.Usuarios;
 
 import java.util.ArrayList;
 import java.util.List;
